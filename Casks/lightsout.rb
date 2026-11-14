@@ -36,28 +36,28 @@ cask "lightsout" do
     end
   end
 
-  version "1.0.2"
+  version "1.0.3"
 
   on_macos do
     on_arm do
-      sha256 "33034a35e145b37964e384a8f3d03d8d8e439d24135162b95c9f44b3a5c4e4a7"
+      sha256 "52bc4cec4458ea3c41679f4a974d35f25383736be71b1e4fa079daa706da518c"
       url "https://github.com/abhisheksinha1506/lightsout/releases/download/v#{version}/lightsout_#{version}_darwin_arm64.tar.gz",
         using: GitHubPrivateRepositoryReleaseDownloadStrategy
     end
     on_intel do
-      sha256 "3de77ffbfb6e53da9ffca93cbfd465ff3b2c50114358e6d17edbbd150d8db6c1"
+      sha256 "0806f082c4059ef3cff9763820e720acda5f586283b2012102698fb2cc548252"
       url "https://github.com/abhisheksinha1506/lightsout/releases/download/v#{version}/lightsout_#{version}_darwin_amd64.tar.gz",
         using: GitHubPrivateRepositoryReleaseDownloadStrategy
     end
   end
   on_linux do
     on_arm do
-      sha256 "4522dcd1551250f994cd32e4521bfeca6f55f65fb13fb835cb21d49f66f59035"
+      sha256 "fda810a5e839ccd96727ac0706b261909810fe5fe51b420e4819975ff2505e26"
       url "https://github.com/abhisheksinha1506/lightsout/releases/download/v#{version}/lightsout_#{version}_linux_arm64.tar.gz",
         using: GitHubPrivateRepositoryReleaseDownloadStrategy
     end
     on_intel do
-      sha256 "e85f39198c2ab69a1353426bbfcb4853867500b83d50fe591d3f5042d1aae0db"
+      sha256 "d61dac421654d1462d8ebed4fbd8cb4ff189169c7a9beb1786ec02f836f4ed6b"
       url "https://github.com/abhisheksinha1506/lightsout/releases/download/v#{version}/lightsout_#{version}_linux_amd64.tar.gz",
         using: GitHubPrivateRepositoryReleaseDownloadStrategy
     end
